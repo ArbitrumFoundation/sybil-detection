@@ -6,7 +6,7 @@ This project aims to remove Sybil addresses from the Arbitrum airdrop, ensuring 
 
 ## Methodology
 
-We use on-chain data to identify related addresses owned by the same user and remove entity addresses such as bridges, exchanges, and smart contracts using data from Nansen, Hop, and OffChain Labs. There are also some addresses being removed by manual inspection, such as donation addresses.
+We use on-chain data to identify related addresses owned by the same user and remove entity addresses such as bridges, exchanges, and smart contracts using data from Nansen, Hop, and OffChain Labs. There are also some addresses being removed by manual inspection, such as donation addresses, l2 alias, etc.
 
 With those cleaned up, 2 graphs are generated for this study:
 
@@ -28,6 +28,23 @@ We identify Sybil clusters based on known patterns, here are some examples
 - Addresses transferring funds in a cluster of more than 20 addresses
 - Addresses that are funded from the same source
 - Addresses with similar activity
+
+---
+
+## Examples
+
+### Cluster 319 with 110 eligible addresses
+![ alt text for screen readers](/images/319.jpeg "cluster 319") 
+Sample address: 0x1ddbf60792aac896aed180eaa6810fccd7839ada
+
+### Cluster 1544 with 56 eligible addresses
+![ alt text for screen readers](/images/1544.jpeg "cluster 1544") 
+Sample address: 0xc7bb9b943fd2a04f651cc513c17eb5671b90912d
+
+### Cluster 2554 with 121 eligible addresses
+![ alt text for screen readers](/images/2554.jpeg "cluster 2554") 
+Sample address: 0x3fb4c01b5ceecf307010f84c9a858aeaeab0b9fa
+
 
 ---
 
