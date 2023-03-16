@@ -64,8 +64,10 @@ Sample address: 0x3fb4c01b5ceecf307010f84c9a858aeaeab0b9fa
 
 7. Internal Address list from OffChain Labs
 
-7. [Hop Blacklist](https://github.com/hop-protocol/hop-airdrop/blob/master/src/data/blacklists/blacklist.ts)
+8. [Hop Blacklist](https://github.com/hop-protocol/hop-airdrop/blob/master/src/data/blacklists/blacklist.ts)
 
-8. [Hop eliminatedSybilAttackers](https://raw.githubusercontent.com/hop-protocol/hop-airdrop/master/src/data/c.csv)
+9. [Hop eliminatedSybilAttackers](https://raw.githubusercontent.com/hop-protocol/hop-airdrop/master/src/data/c.csv)
 
-9. Other active addresses tagged manually
+10. Nansen address tags
+
+11. Other active addresses tagged manually
