@@ -30,3 +30,25 @@ We identify Sybil clusters based on known patterns, here are some examples
 - Addresses with similar activity
 
 ---
+
+## Inputs Used
+
+1. Raw Eligibility List (from Nansen)
+
+2. Excluded Entities (from Nansen) 
+
+3. CEX Deposit Addresses (from Nansen)
+
+4. CEX Deposit Addresses (traced from CEXs hot wallets)
+
+5. Unique transaction and traces (from,to) Arbitrum
+
+6. Unique transaction and traces (from,to) Ethereum
+
+7. Internal Address list from OffChain Labs
+
+7. [Hop Blacklist](https://github.com/hop-protocol/hop-airdrop/blob/master/src/data/blacklists/blacklist.ts)
+
+8. [Hop eliminatedSybilAttackers](https://raw.githubusercontent.com/hop-protocol/hop-airdrop/master/src/data/c.csv)
+
+9. Other active addresses tagged manually
