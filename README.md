@@ -69,7 +69,7 @@ Sample address: 0x15bc18bb8c378c94c04795d72621957497130400
 
 8. [Hop Blacklist](https://github.com/hop-protocol/hop-airdrop/blob/master/src/data/blacklists/blacklist.ts)
 
-9. [Hop eliminatedSybilAttackers](https://raw.githubusercontent.com/hop-protocol/hop-airdrop/master/src/data/c.csv)
+9. [Hop eliminatedSybilAttackers](https://github.com/hop-protocol/hop-airdrop/blob/master/src/data/eliminatedSybilAttackers.csv)
 
 10. Nansen address tags
 
